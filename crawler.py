@@ -13,6 +13,13 @@ import os
 
 # request the target URL
 def crawler():
+    """Initialisiert eine leere GeoJSON-Datei."""
+    file_path = 'json_ld_results.json'
+    empty_geojson = []
+    with open(file_path, 'w', encoding='utf-8') as json_file:
+        json.dump(empty_geojson, json_file, ensure_ascii=False, indent=4)
+    print(f"JSON-Datei wurde geleert: {file_path}")
+
     response = requests.get("https://codeforcologne.github.io/linked-distributed-data/index.html")
     response.raise_for_status()
 
