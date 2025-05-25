@@ -103,5 +103,145 @@
                 "encodingFormat": "model/3ds+zip"
             }
         ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/machupicchu/machupicchu.jpeg",
+        "name": "Machupicchu",
+        "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/machupicchu/machupicchu.html",
+        "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/machupicchu/machupicchu.html?3dmv=open",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Ministerio de Cultura Perú",
+            "url": "https://sketchfab.com/MinisteriodeCulturaPeru"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -13.163333,
+                "longitude": -72.545556
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.jpeg",
+        "name": "Chichen Itza Pyramid 3D Reconstruction",
+        "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.html",
+        "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.html?3dmv=open",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "GSXNet",
+            "url": "https://sketchfab.com/gsxn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 20.68402,
+                "longitude": -88.56817
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "https://openmaps.online/3dmodels/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.jpeg",
+        "name": "Nijo-jo Castle Kyoto",
+        "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.html",
+        "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.html?3dmv=open",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "exAgent",
+            "url": "https://sketchfab.com/exAgent"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 35.014168,
+                "longitude": 135.747498
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+        "name": "Stone Head Low Poly of Easter Island",
+        "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html",
+        "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html?3dmv=open",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Shaz",
+            "url": "https://sketchfab.com/shaz13"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -27.11441,
+                "longitude": -109.42527
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
     }
 ]
