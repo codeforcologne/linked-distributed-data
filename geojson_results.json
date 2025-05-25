@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1762321,
+                    59.579568
+                ]
+            },
+            "properties": {
+                "name": "Heddal Stavkirke",
+                "url": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal-stavkirke.html",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal_stavkirke.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "Kulturarv i Telemark fylkeskommune"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.132778,
+                    29.976111
+                ]
+            },
+            "properties": {
+                "name": "Plateau de Gizeh",
+                "url": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.html",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "pierre391"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.30583211,
+                    31.58749765
+                ]
+            },
+            "properties": {
+                "name": "Fort Lahore Wall",
+                "url": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.html",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "ahmedbilal458"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.545556,
+                    -13.163333
+                ]
+            },
+            "properties": {
+                "name": "Machupicchu",
+                "url": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.html",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "Ministerio de Cultura Perú"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.56817,
+                    20.68402
+                ]
+            },
+            "properties": {
+                "name": "Chichen Itza Pyramid 3D Reconstruction",
+                "url": "",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "GSXNet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.747498,
+                    35.014168
+                ]
+            },
+            "properties": {
+                "name": "Nijo-jo Castle Kyoto",
+                "url": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.html",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "exAgent"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -109.42527,
+                    -27.11441
+                ]
+            },
+            "properties": {
+                "name": "Stone Head Low Poly of Easter Island",
+                "url": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html",
+                "thumbnail": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+                "license": "http://creativecommons.org/licenses/by/4.0/",
+                "creator": "Shaz"
+            }
+        }
+    ]
+}

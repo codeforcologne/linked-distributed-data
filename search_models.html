@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Modelle Suche</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #search-container {
+            margin-bottom: 20px;
+        }
+
+        #results {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .result-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .result-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .result-item h3 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .result-item a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>3D Modelle Suche</h1>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Suche nach Modellen..." />
+        <button id="search-button">Suchen</button>
+    </div>
+    <div id="results"></div>
+
+    <script>
+        // JSON-Daten laden
+        let models = [];
+        fetch('json_ld_results.json')
+            .then(response => response.json())
+            .then(data => {
+                models = data;
+            })
+            .catch(error => console.error('Fehler beim Laden der JSON-Daten:', error));
+
+        // Suchfunktion
+        function searchModels(query) {
+            const lowerCaseQuery = query.toLowerCase();
+            const filteredModels = models.filter(model => {
+                return (
+                    model.name.toLowerCase().includes(lowerCaseQuery) ||
+                    model.keywords.toLowerCase().includes(lowerCaseQuery) ||
+                    model.creator.name.toLowerCase().includes(lowerCaseQuery)
+                );
+            });
+            displayResults(filteredModels);
+        }
+
+        // Ergebnisse anzeigen
+        function displayResults(results) {
+            const resultsContainer = document.getElementById('results');
+            resultsContainer.innerHTML = ''; // Vorherige Ergebnisse löschen
+
+            if (results.length === 0) {
+                resultsContainer.innerHTML = '<p>Keine Ergebnisse gefunden.</p>';
+                return;
+            }
+
+            results.forEach(model => {
+                const item = document.createElement('div');
+                item.className = 'result-item';
+                item.innerHTML = `
+                    <img src="${model.thumbnail}" alt="${model.name}" />
+                    <h3>${model.name}</h3>
+                    <p>Ersteller: ${model.creator.name}</p>
+                    <a href="${model.url}" target="_blank">Mehr erfahren</a>
+                `;
+                resultsContainer.appendChild(item);
+            });
+        }
+
+        // Event-Listener für die Suche
+        document.getElementById('search-button').addEventListener('click', () => {
+            const query = document.getElementById('search-input').value;
+            searchModels(query);
+        });
+
+        // Suche bei Eingabe auslösen
+        document.getElementById('search-input').addEventListener('input', () => {
+            const query = document.getElementById('search-input').value;
+            searchModels(query);
+        });
+    </script>
+</body>
+
+</html>

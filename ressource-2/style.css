@@ -1,0 +1,85 @@
+/* Achtung: Dieser Style wurde (teilweise) mit Hilfe von KI-Tools generiert (Copilot Agent).<br/> 
+Bitte sorgfältig prüfen und vor dem produktiven Einsatz testen! 
+OK Lab Köln */
+
+.centerDIV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: fit-content; /* Optional: Adjust width as needed */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.centerDIV {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #0d0c0c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+code {
+    display: block;
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #ff6f61;
+    overflow-x: auto;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #ff6f61;
+    color: white;
+}

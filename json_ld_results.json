@@ -1,0 +1,839 @@
+[
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal_stavkirke.jpeg",
+        "name": "Heddal Stavkirke",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Kulturarv i Telemark fylkeskommune",
+            "url": "https://sketchfab.com/sindrearn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 59.579568,
+                "longitude": 9.1762321
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "heddal-stavkirke/heddal-stavkirke.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "heddal-stavkirke/heddal_stavkirke.zip",
+                "encodingFormat": "model/3ds+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.jpeg",
+        "name": "Plateau de Gizeh",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "pierre391",
+            "url": "https://sketchfab.com/pierre391"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 29.976111,
+                "longitude": 31.132778
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "plateau-de-gizeh/plateau-de-gizeh.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "plateau-de-gizeh/plateau-de-gizeh.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.jpeg",
+        "name": "Fort Lahore Wall",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "ahmedbilal458",
+            "url": "https://sketchfab.com/ahmedbilal458"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 31.58749765,
+                "longitude": 74.30583211
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "lahore-fort-wall/lahore-fort-wall.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "lahore-fort-wall/lahore-fort-wall.zip",
+                "encodingFormat": "model/3ds+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.jpeg",
+        "name": "Machupicchu",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Ministerio de Cultura Perú",
+            "url": "https://sketchfab.com/MinisteriodeCulturaPeru"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -13.163333,
+                "longitude": -72.545556
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.jpeg",
+        "name": "Chichen Itza Pyramid 3D Reconstruction",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "GSXNet",
+            "url": "https://sketchfab.com/gsxn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 20.68402,
+                "longitude": -88.56817
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.jpeg",
+        "name": "Nijo-jo Castle Kyoto",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "exAgent",
+            "url": "https://sketchfab.com/exAgent"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 35.014168,
+                "longitude": 135.747498
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+        "name": "Stone Head Low Poly of Easter Island",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Shaz",
+            "url": "https://sketchfab.com/shaz13"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -27.11441,
+                "longitude": -109.42527
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal_stavkirke.jpeg",
+        "name": "Heddal Stavkirke",
+        "url": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal-stavkirke.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Kulturarv i Telemark fylkeskommune",
+            "url": "https://sketchfab.com/sindrearn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 59.579568,
+                "longitude": 9.1762321
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "heddal-stavkirke/heddal-stavkirke.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "heddal-stavkirke/heddal_stavkirke.zip",
+                "encodingFormat": "model/3ds+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.jpeg",
+        "name": "Plateau de Gizeh",
+        "url": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "pierre391",
+            "url": "https://sketchfab.com/pierre391"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 29.976111,
+                "longitude": 31.132778
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "plateau-de-gizeh/plateau-de-gizeh.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "plateau-de-gizeh/plateau-de-gizeh.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.jpeg",
+        "name": "Fort Lahore Wall",
+        "url": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "ahmedbilal458",
+            "url": "https://sketchfab.com/ahmedbilal458"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 31.58749765,
+                "longitude": 74.30583211
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "lahore-fort-wall/lahore-fort-wall.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "lahore-fort-wall/lahore-fort-wall.zip",
+                "encodingFormat": "model/3ds+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.jpeg",
+        "name": "Machupicchu",
+        "url": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Ministerio de Cultura Perú",
+            "url": "https://sketchfab.com/MinisteriodeCulturaPeru"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -13.163333,
+                "longitude": -72.545556
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.jpeg",
+        "name": "Chichen Itza Pyramid 3D Reconstruction",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "GSXNet",
+            "url": "https://sketchfab.com/gsxn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 20.68402,
+                "longitude": -88.56817
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.jpeg",
+        "name": "Nijo-jo Castle Kyoto",
+        "url": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "exAgent",
+            "url": "https://sketchfab.com/exAgent"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 35.014168,
+                "longitude": 135.747498
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+        "name": "Stone Head Low Poly of Easter Island",
+        "url": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Shaz",
+            "url": "https://sketchfab.com/shaz13"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -27.11441,
+                "longitude": -109.42527
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal_stavkirke.jpeg",
+        "name": "Heddal Stavkirke",
+        "url": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal-stavkirke.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Kulturarv i Telemark fylkeskommune",
+            "url": "https://sketchfab.com/sindrearn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 59.579568,
+                "longitude": 9.1762321
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "heddal-stavkirke/heddal-stavkirke.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "heddal-stavkirke/heddal_stavkirke.zip",
+                "encodingFormat": "model/3ds+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.jpeg",
+        "name": "Plateau de Gizeh",
+        "url": "https://openmaps.online/3dmodels/ressource-1/plateau-de-gizeh/plateau-de-gizeh.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "pierre391",
+            "url": "https://sketchfab.com/pierre391"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 29.976111,
+                "longitude": 31.132778
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "plateau-de-gizeh/plateau-de-gizeh.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "plateau-de-gizeh/plateau-de-gizeh.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.jpeg",
+        "name": "Fort Lahore Wall",
+        "url": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "ahmedbilal458",
+            "url": "https://sketchfab.com/ahmedbilal458"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 31.58749765,
+                "longitude": 74.30583211
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "lahore-fort-wall/lahore-fort-wall.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "lahore-fort-wall/lahore-fort-wall.zip",
+                "encodingFormat": "model/3ds+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.jpeg",
+        "name": "Machupicchu",
+        "url": "https://openmaps.online/3dmodels/ressource-2/machupicchu/machupicchu.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Ministerio de Cultura Perú",
+            "url": "https://sketchfab.com/MinisteriodeCulturaPeru"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -13.163333,
+                "longitude": -72.545556
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.jpeg",
+        "name": "Chichen Itza Pyramid 3D Reconstruction",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "GSXNet",
+            "url": "https://sketchfab.com/gsxn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 20.68402,
+                "longitude": -88.56817
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.jpeg",
+        "name": "Nijo-jo Castle Kyoto",
+        "url": "https://openmaps.online/3dmodels/ressource-2/nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "exAgent",
+            "url": "https://sketchfab.com/exAgent"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 35.014168,
+                "longitude": 135.747498
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+        "name": "Stone Head Low Poly of Easter Island",
+        "url": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Shaz",
+            "url": "https://sketchfab.com/shaz13"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -27.11441,
+                "longitude": -109.42527
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "machupicchu/machupicchu.jpeg",
+        "name": "Machupicchu",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Ministerio de Cultura Perú",
+            "url": "https://sketchfab.com/MinisteriodeCulturaPeru"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -13.163333,
+                "longitude": -72.545556
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "machupicchu/machupicchu.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.jpeg",
+        "name": "Chichen Itza Pyramid 3D Reconstruction",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "GSXNet",
+            "url": "https://sketchfab.com/gsxn"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 20.68402,
+                "longitude": -88.56817
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "chichen-itza-pyramid-3d-reconstruction/chichen-itza-pyramid-3d-reconstruction.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.jpeg",
+        "name": "Nijo-jo Castle Kyoto",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "exAgent",
+            "url": "https://sketchfab.com/exAgent"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 35.014168,
+                "longitude": 135.747498
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "nijo-jo-castle-kyoto/nijo-jo-castle-kyoto.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org/",
+        "@type": "3DModel",
+        "thumbnail": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+        "name": "Fort Lahore Wall",
+        "license": "http://creativecommons.org/licenses/by/4.0/",
+        "keywords": "cultural-heritage-history",
+        "creator": {
+            "@type": "Organization",
+            "name": "Shaz",
+            "url": "https://sketchfab.com/shaz13"
+        },
+        "spatialCoverage": {
+            "@type": "Place",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": -27.11441,
+                "longitude": -109.42527
+            }
+        },
+        "encoding": [
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                "encodingFormat": "model/gltf-binary"
+            },
+            {
+                "@type": "MediaObject",
+                "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                "encodingFormat": "model/fbx+zip"
+            }
+        ]
+    }
+]

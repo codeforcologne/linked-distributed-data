@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLayers Karte</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v10.5.0/ol.css">
+    <style>
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .popup {
+            position: absolute;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>OpenLayers Karte mit GeoJSON</h1>
+    <div id="map"></div>
+    <div id="popup" class="popup"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ol@v10.5.0/dist/ol.js"></script>
+    <script>
+        // Karte initialisieren
+        const map = new ol.Map({
+            target: 'map',
+            layers: [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM() // OpenStreetMap als Hintergrund
+                })
+            ],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([0.0, 0.0]), // Startposition (Europa)
+                zoom: 2
+            })
+        });
+
+        // Popup-Element
+        const popup = document.getElementById('popup');
+
+        // GeoJSON-Daten laden
+        fetch('geojson_results.json')
+            .then(response => response.json())
+            .then(data => {
+                // GeoJSON-Quelle erstellen
+                const geojsonSource = new ol.source.Vector({
+                    features: new ol.format.GeoJSON().readFeatures(data, {
+                        featureProjection: 'EPSG:3857' // Projektion für Web-Mercator
+                    })
+                });
+
+                // Layer mit GeoJSON-Daten hinzufügen
+                const geojsonLayer = new ol.layer.Vector({
+                    source: geojsonSource,
+                    style: new ol.style.Style({
+                        image: new ol.style.Circle({
+                            radius: 6,
+                            fill: new ol.style.Fill({ color: 'red' }),
+                            stroke: new ol.style.Stroke({ color: 'black', width: 1 })
+                        })
+                    })
+                });
+
+                map.addLayer(geojsonLayer);
+
+                // Feature-Abfrage hinzufügen
+                map.on('singleclick', function (event) {
+                    // Alle Features an der Klickposition abfragen
+                    map.forEachFeatureAtPixel(event.pixel, function (feature) {
+                        const properties = feature.getProperties();
+                        console.log('Feature Eigenschaften:', properties);
+
+                        // Popup anzeigen
+                        popup.style.display = 'block';
+                        popup.style.left = event.pixel[0] + 'px';
+                        popup.style.top = event.pixel[1] + 'px';
+                        popup.innerHTML = `
+                            <strong>${properties.name || 'Unbekannt'}</strong><br>
+                            <img src="${properties.thumbnail}" alt="${properties.name}" style="width: 300px; height: auto;"><br>
+                            Lizenz: <a href="${properties.license}" target="_blank">${properties.license || 'Keine Lizenz'}</a><br>
+                            Ersteller: ${properties.creator || 'Unbekannt'}<br>
+                            Webseite: <a href="${properties.url}" target="_blank">${properties.url || 'Unbekannt'}</a> 
+                        `;
+                    });
+                });
+
+                // Popup ausblenden, wenn die Karte geklickt wird, aber kein Feature vorhanden ist
+                map.on('click', function (event) {
+                    const features = map.getFeaturesAtPixel(event.pixel);
+                    if (!features) {
+                        popup.style.display = 'none';
+                    }
+                });
+            })
+            .catch(error => console.error('Fehler beim Laden des GeoJSON:', error));
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Dezentrales Repository 1</title>
+    <meta name="author" content="OK Lab Köln" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+          textarea {
+            width: 810px;
+            height: 420px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/oklab_koelle.png" alt="Logo">
+        
+        <h1>Verteilte Daten vernetzen mit JSON-LD</h1>
+
+    </header>
+    <div class="centerDIV">
+        <h2>Prototyp: Dezentrales Repository für 3D-Modelle - 1</h2>
+
+        <p>Diese Webseite enthält die Links zu den Webseiten der 3D-Modelle.</p>
+
+        <ul id="resources">
+            <li><a href="https://codeforcologne.github.io/linked-distributed-data/ressource-1/heddal-stavkirke.html">Heddal-Stavkirke 3D-Modell</a></li>
+            <li><a href="https://codeforcologne.github.io/linked-distributed-data/ressource-1/plateau-de-gizeh.html">Plateau de Gizeh 3D-Modell</a></li>
+            <li><a href="https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall.html">Lahore Fort Wall 3D-Modell</a></li>
+        </ul>
+
+        <p>Es enthält wie das zentrale Repository eine ungeordnete Liste mit der id = resources:</p>
+        <code>
+        &lt;ul id="resources"&gt; <br/>
+        &nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="https://codeforcologne.github.io/linked-distributed-data/ressource-1/heddal-stavkirke.html"&gt;Heddal-Stavkirke 3D-Modell&lt;/a&gt;&lt;/li&gt; <br/>
+        &nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="https://codeforcologne.github.io/linked-distributed-data/ressource-1/plateau-de-gizeh.html"&gt;Plateau de Gizeh 3D-Modell&lt;/a&gt;&lt;/li&gt; <br/>
+        &nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a href="https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall.html"&gt;Lahore Fort Wall 3D-Modell&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;/ul&gt;
+        </code>
+
+        <p>WebCrawler haben hier Zugriff auf die Webseiten der 3D-Modelle .</p>
+
+        <h3>JSON-LD Beispiel</h3>
+        <textarea id="textarea"></textarea>
+        <p>Das JSON-LD Skript ist in der HTML Datei des 3D-Modells eingebettet, und kann von WebCrawlern indexiert werden.</p>
+        <p>Der Schlüsselwort @context gibt an, dass das JSON auf dem <a target="_blank" href="https://schema.org">Schema.org</a>-Vokabular basiert. Hier für ein 3D-Modell (@type).</p>
+        <p> Ein 3D-Model kann multiple Encodings vom Typ MediaObject haben. 
+            Es macht Sinn hier ein für das Web optimiertes Modell im Format "model/gltf-binary" (.glb) anzubieten, welches dann auch direkt im Browser gerendert werden kann.
+            Dies dient hier als Input für das Schlüsselwort embedUrl. Da das Originalformat aber auch vom Format "model/gltf-binary" sein kann, wird dieses gezippt mit dem entsprechenden Encoding Format hier bereitgestellt (model/gltf-binary+zip).
+            So können die Crawler zwischen dem optimierten Modell fürs Web und dem original Modell unterscheiden. Letzteres kann leicht die Ressourcen des Browsers überfordern,
+            oder selbst die eines üblichen Office PCs. Ein Beispiel hierfür ist das Original vom <a target="_blank" href="https://openheritage3d.org/project.php?id=90yg-1054">Lincoln Memorial 3D-Modell</a>.                        
+        </p>
+       
+         <p>Nicht berücksichtigt werden hier Kataloge von 3D Kacheln, wie wir sie z.B. bei digitalen Zwillingen haben. Dafür würde sich auch eher ein Schema.org <a target="_blank" href="https://schema.org/DataCatalog">DataCatalog</a> eignen.
+            Hier geht es zu den freien Daten des Digitalen Zwillings NRW - <a target="_blank" href="https://www.opengeodata.nrw.de/produkte/geobasis/3dg/lod2_slpk/lod2_slpk/">3D-Gebäudemodell LoD2 im Scene Layer Package Format</a>.
+            Zur Anzeige der Tiles sind spezielle Viewer notwendig, wie z.B. der <a target="_blank" href="https://www.dz.nrw.de">Digitale Zwilling NRW</a>.            
+        </p>
+<p>
+    Die strukturierten Daten für Schema.org Datensätze (Dataset, DataCatalog, DataDownload) haben in der Praxis durchaus Relevanz.
+    Diese werden für <a target="_blank" href="https://datasetsearch.research.google.com/">Google Dataset Search</a> indexiert.
+    Hier ein Beispiel für ein Dataset, das in der Google Dataset Search indexiert ist: <a target="_blank" href="https://datasetsearch.research.google.com/search?src=0&query=schalldruck&docid=L2cvMTFsNjV5aDAwOQ%3D%3D">Aggregierte Daten des maximal gemessenen Schalldrucks der Sensor Community</a>       
+</p>
+
+
+        <h3>HTML Meta Tags Beispiel</h3>
+        <code>
+        &lt;title&gt;Heddal Stavkirk - 3D-Modell&lt;/title&gt; <br/>
+        &lt;meta name="description" content="Heddal Stavkirk, 3D-Modell, Kulturarv i Telemark fylkeskommune, CC-BY-4.0 "&gt;
+        </code>
+        <p>Es gibt zahlreiche weitere Meta Tags, die aber bei den großen Suchmaschinen keine Rolle mehr spielen (<a href="https://www.sistrix.de/frag-sistrix/onpage/meta-keywords/">siehe hier</a>).</p>
+    </div>
+    <footer>
+        <p>OK-Lab Köln</p>
+    </footer>
+    <script>
+        var json = {
+            "@context": "http://schema.org/",
+            "@type": "3DModel",
+            "thumbnail": "heddal-stavkirke/heddal_stavkirke.jpeg",
+            "name": "Heddal Stavkirke",
+            "url": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal-stavkirke.html",
+            "embedUrl": "https://openmaps.online/3dmodels/ressource-1/heddal-stavkirke/heddal-stavkirke.html?3dmv=open",
+            "license": "http://creativecommons.org/licenses/by/4.0/",
+            "keywords": "cultural-heritage-history",
+            "creator": {
+                "@type": "Organization",
+                "name": "Kulturarv i Telemark fylkeskommune",
+                "url": "https://sketchfab.com/sindrearn"
+            },
+            "encoding": [
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "heddal-stavkirke/heddal-stavkirke.glb",
+                    "encodingFormat": "model/gltf-binary"
+                },
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "heddal-stavkirke/heddal_stavkirke.zip",
+                    "encodingFormat": "model/3ds+zip"
+                }
+            ]
+        };
+
+        var formattedJson = JSON.stringify(json, null, 2);
+        document.getElementById('textarea').innerHTML = formattedJson;
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Lahore Fort Wall - 3D-Modell</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OK Lab Köln" />
+    <meta name="description" content="Lahore Fort Wall, 3D-Modell, ahmedbilal458, CC-BY-4.0 ">
+    <script>
+        self.ModelViewerElement = self.ModelViewerElement || {};
+        self.ModelViewerElement.meshoptDecoderLocation = 'https://cdn.jsdelivr.net/npm/meshoptimizer/meshopt_decoder.js';
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "3DModel",
+            "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.jpeg",
+            "name": "Fort Lahore Wall",
+            "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.html?3dmv=open",
+            "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.html",
+            "license": "http://creativecommons.org/licenses/by/4.0/",
+            "keywords": "cultural-heritage-history",
+            "creator": {
+                "@type": "Organization",
+                "name": "ahmedbilal458",
+                "url": "https://sketchfab.com/ahmedbilal458"
+            },
+            "spatialCoverage": {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 31.58749765,
+                  "longitude": 74.30583211
+                }
+              },
+            "encoding": [
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.glb",
+                    "encodingFormat": "model/gltf-binary"
+                },
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.zip",
+                    "encodingFormat": "model/3ds+zip"
+                }
+            ]
+        }
+    </script>
+    <style>
+        textarea {
+            width: 780px;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centerDIV">
+        <h1>Lahore Fort Wall</h1>
+        <p>Lahore Fort Wall 3D-Modell Webseite</p>
+        <div id="model-container">
+            <img src="lahore-fort-wall/lahore-fort-wall.jpeg" alt="Lahore Fort Wall"
+                style="max-width: 100%; height: auto;">
+        </div>
+
+
+        <p>
+            "Lahore Fort Wall" by ahmedbilal458 is licensed under
+            <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution</a>.
+        </p>
+
+        <p>
+            <button onclick="replaceWithModelViewer()">Open 3D-Model in 3D viewer</button>
+        </p>
+        <p><a href="https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.zip">Download full resolution 3D-Model</a></p>
+        <p><a href="lahore-fort-wall/lahore-fort-wall.glb">Download optimized GLB 3D-Model</a></p>
+        <p> Optimized with gltf-transform</p>
+        <code>gltf-transform optimize model3d.glb model3d+opt.glb --compress meshopt --texture-compress webp --texture-size 2048
+    </code>
+
+        <h3> JSON-LD</h3>
+        <code>
+        <textarea id="textarea"></textarea> <br/>        
+    </code>
+
+
+        <h3> HTML Meta Tags</h3>
+        <code>
+    &lt;title&gt;Lahore Fort Wall - 3D-Modell&lt;/title&gt; <br/>
+    &lt;meta name="description" content="Lahore Fort Wall, 3D-Modell, ahmedbilal458, CC-BY-4.0 "&gt;
+    </code>
+    </div>
+    
+</body>
+<script>
+    function replaceWithModelViewer() {
+        // Dynamically load the model-viewer script
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = 'https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js';
+        script.onload = () => {
+            const container = document.getElementById('model-container');
+            container.innerHTML = `                
+                    <model-viewer src="lahore-fort-wall/lahore-fort-wall.glb" alt="Fort Lahore Wall 3D-Model" 
+                                  auto-rotate camera-controls style="width: 720px; height: 405px;">
+                    </model-viewer>
+                `;
+        };
+        document.head.appendChild(script);
+        // remove the button
+        document.querySelector('button').remove();
+    }
+
+    var json = {
+            "@context": "http://schema.org/",
+            "@type": "3DModel",
+            "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.jpeg",
+            "name": "Fort Lahore Wall",
+            "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.html",
+            "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.html?3dmv=open",
+            "license": "http://creativecommons.org/licenses/by/4.0/",
+            "keywords": "cultural-heritage-history",
+            "creator": {
+                "@type": "Organization",
+                "name": "ahmedbilal458",
+                "url": "https://sketchfab.com/ahmedbilal458"
+            },
+            "spatialCoverage": {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 31.58749765,
+                  "longitude": 74.30583211
+                }
+              },
+            "encoding": [
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-1/lahore-fort-wall/lahore-fort-wall.glb",
+                    "encodingFormat": "model/gltf-binary"
+                },
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "https://openmaps.online/3dmodels/ressource-1/lahore-fort-wall/lahore-fort-wall.zip",
+                    "encodingFormat": "model/3ds+zip"
+                }
+            ]
+        };
+
+    var formattedJson = JSON.stringify(json, null, 2);
+    document.getElementById('textarea').innerHTML = formattedJson;
+
+    const htmlParameters = window.location.search;
+    
+        if(htmlParameters.indexOf("3dmv=open") > -1){
+            replaceWithModelViewer();
+        }
+</script>
+
+</body>
+
+</html>

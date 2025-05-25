@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Stone Head Low Poly of Easter Island - 3D-Modell</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OK Lab Köln" />
+    <meta name="description" content="Stone Head Low Poly of Easter Island, 3D-Modell, Shaz, CC-BY-4.0 ">
+    <script>
+        self.ModelViewerElement = self.ModelViewerElement || {};
+        self.ModelViewerElement.meshoptDecoderLocation = 'https://cdn.jsdelivr.net/npm/meshoptimizer/meshopt_decoder.js';
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "3DModel",
+            "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+            "name": "Stone Head Low Poly of Easter Island",
+            "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html",
+            "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html?3dmv=open",
+            "license": "http://creativecommons.org/licenses/by/4.0/",
+            "keywords": "cultural-heritage-history",
+            "creator": {
+                "@type": "Organization",
+                "name": "Shaz",
+                "url": "https://sketchfab.com/shaz13"
+            },
+            "spatialCoverage": {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": -27.114410,
+                "longitude": -109.425270
+                }
+              },
+            "encoding": [
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                    "encodingFormat": "model/gltf-binary"
+                },
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                    "encodingFormat": "model/fbx+zip"
+                }
+            ]
+        }
+    </script>
+    <style>
+        textarea {
+            width: 780px;
+            height: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="centerDIV">
+        <h1>Stone Head Low Poly of Easter Island</h1>
+        <p>Stone Head Low Poly of Easter Island 3D-Modell Webseite</p>
+        <div id="model-container">
+            <img src="stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg" alt="Stone Head Low Poly of Easter Island"
+                style="max-width: 100%; height: auto;">
+        </div>
+
+
+        <p>
+            "Stone Head Low Poly of Easter Island" by Shaz is licensed under
+            <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution</a>.
+        </p>
+
+        <p>
+            <button onclick="replaceWithModelViewer()">Open 3D-Model in 3D viewer</button>
+        </p>
+        <p><a href="https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip">Download full resolution 3D-Model</a></p>
+        <p><a href="stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb">Download optimized GLB 3D-Model</a></p>
+        <p> Optimized with gltf-transform</p>
+        <code>gltf-transform optimize model3d.glb model3d+opt.glb --compress meshopt --texture-compress webp --texture-size 2048
+    </code>
+
+        <h3> JSON-LD</h3>
+        <code>
+        <textarea id="textarea"></textarea> <br/>        
+    </code>
+
+
+        <h3> HTML Meta Tags</h3>
+        <code>
+    &lt;title&gt;Stone Head Low Poly of Easter Island - 3D-Modell&lt;/title&gt; <br/>
+    &lt;meta name="description" content="Stone Head Low Poly of Easter Island, 3D-Modell, Shaz, CC-BY-4.0 "&gt;
+    </code>
+    </div>
+</body>
+<script>
+    function replaceWithModelViewer() {
+        // Dynamically load the model-viewer script
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = 'https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js';
+        script.onload = () => {
+            const container = document.getElementById('model-container');
+            container.innerHTML = `                
+                    <model-viewer src="stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb" alt="Fort Lahore Wall 3D-Model" 
+                                  auto-rotate camera-controls style="width: 720px; height: 405px;">
+                    </model-viewer>
+                `;
+        };
+        document.head.appendChild(script);
+        // remove the button
+        document.querySelector('button').remove();
+    }
+
+    var json = {
+            "@context": "http://schema.org/",
+            "@type": "3DModel",
+            "thumbnail": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.jpeg",
+            "name": "Stone Head Low Poly of Easter Island",
+            "url": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html",
+            "embedUrl": "https://codeforcologne.github.io/linked-distributed-data/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.html?3dmv=open",
+            "license": "http://creativecommons.org/licenses/by/4.0/",
+            "keywords": "cultural-heritage-history",
+            "creator": {
+                "@type": "Organization",
+                "name": "Shaz",
+                "url": "https://sketchfab.com/shaz13"
+            },
+            "spatialCoverage": {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": -27.114410,
+                "longitude": -109.425270
+                }
+              },
+            "encoding": [
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.glb",
+                    "encodingFormat": "model/gltf-binary"
+                },
+                {
+                    "@type": "MediaObject",
+                    "contentUrl": "https://openmaps.online/3dmodels/ressource-2/stone-head-low-poly-of-easter-island/stone-head-low-poly-of-easter-island.zip",
+                    "encodingFormat": "model/fbx+zip"
+                }
+            ]
+        };
+
+    var formattedJson = JSON.stringify(json, null, 2);
+    document.getElementById('textarea').innerHTML = formattedJson;
+
+    const htmlParameters = window.location.search;
+    
+        if(htmlParameters.indexOf("3dmv=open") > -1){
+            replaceWithModelViewer();
+        }
+</script>
+
+</body>
+
+</html>

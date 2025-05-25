@@ -1,2 +1,0 @@
-# linked-distributed-data
-todo
